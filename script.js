@@ -44,9 +44,7 @@ function type(text, id, index) {
         }
         index++;
         window.scrollTo(0, document.body.scrollHeight); // Scroll to the bottom of the page
-        setTimeout(function() {
-            type(text, id, index);
-        }, (Math.random() * 150) % 1); // Adjust typing speed here
+        setTimeout(type(text, id, index), (Math.random() * 150) % 1); // Adjust typing speed here
     }
 }
 
