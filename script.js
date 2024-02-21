@@ -6,7 +6,7 @@ System information:
 Processor: a potato (If GLaDOS could run on a potato, so can this) 
 Memory: 8 bytes (I'm not kidding, when I say this is a potato, I really mean it)
 Graphics: Four freaking pixels
-Storage: a single floppy disk (When I said potato, I really really meant it)
+Storage: The void (It's just a black hole, thanks Robin)
 Network: What a slow connection! (That's on you, pal)
 Extras: Why are you still reading this? Go see my other projects! 
 -------------------
