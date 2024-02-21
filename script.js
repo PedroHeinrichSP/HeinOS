@@ -23,7 +23,6 @@ Welcome to HeinOS! The most useless operating system ever created!
 
 Type 'help' to see a list of available commands, or click on the pages to see them.
 
-\r
 `;
 
 const textMap = new Map();
@@ -44,7 +43,7 @@ function type(text, id, index) {
         }
         index++;
         window.scrollTo(0, document.body.scrollHeight); // Scroll to the bottom of the page
-        setTimeout(type(text, id, index), (Math.random() * 150) % 1); // Adjust typing speed here
+        setTimeout(type(text, id, index), (Math.random() * 150) % 100); // Adjust typing speed here
     }
 }
 
