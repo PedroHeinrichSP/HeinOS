@@ -26,11 +26,11 @@ Type 'help' to see a list of available commands, or click on the pages to see th
 `;
 
 const textMap = new Map();
-textMap.set("what", "> What is this?");
-textMap.set("projects", "> Projects");
-textMap.set("about", "> About the creator");
-textMap.set("contact", "> Contact me");
-textMap.set("credits", "> Credits");
+textMap.set("what", "\n> What is this?");
+textMap.set("projects", "\n> Projects");
+textMap.set("about", "\n> About the creator");
+textMap.set("contact", "\n> Contact me");
+textMap.set("credits", "\n> Credits");
 
 function type(text, id, index) {
     if (index <= text.length) {
