@@ -50,7 +50,7 @@ function type(text, id, index) {
 function createNewDiv(stringKey) {
     const biggerString = textMap.get(stringKey);
     const newDiv = document.createElement("div");
-    newDiv.style.display = "inline-block"; // Set display property to inline-block
+    newDiv.style.display = "block"; // Set display property to inline-block
     newDiv.style.whiteSpace = "pre"; // Set whitespace property to pre
     document.body.appendChild(newDiv);
     newDiv.id = stringKey; 
