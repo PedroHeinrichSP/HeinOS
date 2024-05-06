@@ -1,5 +1,4 @@
-const main = `
-HeinOS Version 0.1.0
+const main = `HeinOS Version 0.1.0
 (C) 2024 Just me for real Inc. All rights reserved.
 
 System information:
@@ -62,11 +61,11 @@ function createNewDiv(stringKey) {
 
 window.onload = function () {
     typer(main, "main", 0); 
-    createNewDiv("what");
-    createNewDiv("projects");
-    createNewDiv("about");
-    createNewDiv("contact");
-    createNewDiv("credits");
+    //createNewDiv("what");
+    //createNewDiv("projects");
+    //createNewDiv("about");
+    //createNewDiv("contact");
+    //createNewDiv("credits");
 };
 
 
