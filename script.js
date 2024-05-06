@@ -1,10 +1,10 @@
-const main = `HeinOS version 0.1.0
+const main = `HeinOS Version 0.1.0
 (C) 2024 Just me for real Inc. All rights reserved.
 
 System information:
 -------------------
-Processor: a potato (If GLaDOS could run on a potato, so can this)
-Memory: 8 bytes (I'm not kidding, when I say this is a potato, I really mean it)
+Processor: a potato (GLaDOS could, so can this)
+Memory: 8 bytes (When I say this is a potato, I really mean it)
 Graphics: Four freaking pixels
 Storage: The void (It's just a black hole, thanks Robin)
 Network: What a slow connection! (That's on you, pal)
