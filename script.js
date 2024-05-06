@@ -32,7 +32,7 @@ textMap.set("about", "\n> About the creator");
 textMap.set("contact", "\n> Contact me");
 textMap.set("credits", "\n> Credits");
 
-function type(text, id, index) {
+function typer(text, id, index) {
     if (index <= text.length) {
         document.getElementById(id).textContent = text.substring(0, index);
         const cursor = document.getElementById("cursor");
@@ -46,7 +46,7 @@ function type(text, id, index) {
         window.scrollTo(0, document.body.scrollHeight); // Scroll to the bottom of the page
         setTimeout(function(){
             type(text, id, index)
-        }, (Math.random() * 15) % 10); // Adjust typing speed here
+        }, (150)); // Adjust typing speed here
     }
 }
 
@@ -57,14 +57,16 @@ function createNewDiv(stringKey) {
     newDiv.style.whiteSpace = "pre"; // Set whitespace property to pre
     document.body.appendChild(newDiv);
     newDiv.id = stringKey; 
-    type(biggerString, stringKey, 0);
+    typer(biggerString, stringKey, 0);
 }
 
 window.onload = function () {
-    type(main, "main", 0); 
+    typer(main, "main", 0); 
     // createNewDiv("what");
     // createNewDiv("projects");
     // createNewDiv("about");
     // createNewDiv("contact");
     // createNewDiv("credits");
 };
+
+
