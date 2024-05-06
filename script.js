@@ -62,11 +62,11 @@ function createNewDiv(stringKey) {
 
 window.onload = function () {
     typer(main, "main", 0); 
-    // createNewDiv("what");
-    // createNewDiv("projects");
-    // createNewDiv("about");
-    // createNewDiv("contact");
-    // createNewDiv("credits");
+    createNewDiv("what");
+    createNewDiv("projects");
+    createNewDiv("about");
+    createNewDiv("contact");
+    createNewDiv("credits");
 };
 
 
