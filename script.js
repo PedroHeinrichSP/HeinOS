@@ -1,4 +1,5 @@
-const main = `HeinOS Version 0.1.0
+const main = `
+HeinOS Version 0.1.0
 (C) 2024 Just me for real Inc. All rights reserved.
 
 System information:
@@ -22,7 +23,6 @@ Extras: Why are you still reading this? Go see my other projects!
 Welcome to HeinOS! The most useless operating system ever created!
 
 Type 'help' to see a list of available commands, or click on the pages to see them.
-
 `;
 
 const textMap = new Map();
